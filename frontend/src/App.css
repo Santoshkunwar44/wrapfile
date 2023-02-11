@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,600&family=Roboto:wght@500&family=Space+Grotesk:wght@500;700&display=swap");
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Grotesk', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body {
+  background-color: #1f1f29 !important;
+}
+:root {
+  --primary_color: #ff562d;
+  --secondary_color: #0dd60e;
+}
+.App {
+  height: auto;
+}
