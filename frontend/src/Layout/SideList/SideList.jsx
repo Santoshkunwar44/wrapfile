@@ -43,7 +43,7 @@ const SideList = () => {
             </Link>
             <Link to={"account"}>
                 <div className={styles.sideItem}>
-                    <img className={styles.sideItem_profileImg} src="https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/295566815_628925168949472_6493492915652486723_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a4a2d7&_nc_ohc=yLChwvTXUCkAX96wEKb&_nc_ht=scontent.fbwa1-1.fna&oh=00_AfCCnLGJW5foj37LVru9g_6gyYpXrXBwcB3Zae8dbYvydQ&oe=63EB4D55" alt="fileUploadImg" />
+                    <img className={styles.sideItem_profileImg} src={"/assets/images/user.png"} alt="fileUploadImg" />
                     <p>Account</p>
                 </div>
             </Link>

@@ -14,12 +14,14 @@ font-family: 'Space Grotesk', sans-serif; */
   display: none;
 }
 body {
-  background-color: #1f1f29 !important;
 }
 :root {
-  --primary_color: #ff562d;
+  --primary_color: #3c4696;
   --secondary_color: #0dd60e;
 }
 .App {
-  height: auto;
+  
+  background-image: linear-gradient(45deg,#080814,#101021fd) ;
+  /* height: auto; */
+  min-height: 100vh;
 }

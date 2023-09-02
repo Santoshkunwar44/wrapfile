@@ -14,7 +14,7 @@
   padding: 1rem;
 }
 .account_personal_details {
-  box-shadow: rgba(255, 23, 23, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(255, 23, 23, 0.2) 0px 7px 29px 0px; */
   background-color: #1d1d1d;
   border-radius: 15px;
   padding: 2rem 1rem;
@@ -95,7 +95,7 @@
   padding: 2rem;
   background-color: #1d1d1d;
   border-radius: 19px;
-  box-shadow: rgba(255, 23, 23, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(255, 23, 23, 0.2) 0px 7px 29px 0px; */
 }
 .account_section_header {
   height: 60px;

@@ -7,12 +7,12 @@ const Account = () => {
     return (
         <div
             className={styles.Account_box}>
-            <Header img={"https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/295566815_628925168949472_6493492915652486723_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a4a2d7&_nc_ohc=yLChwvTXUCkAX96wEKb&_nc_ht=scontent.fbwa1-1.fna&oh=00_AfCCnLGJW5foj37LVru9g_6gyYpXrXBwcB3Zae8dbYvydQ&oe=63EB4D55"} name={"My Account"} />
+            <Header img={"/assets/images/user.png"} name={"My Account"} />
             <div className={styles.account_content}>
 
                 <div className={styles.account_personal_details}>
 
-                    <img className={styles.user_profile_img} src="https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/295566815_628925168949472_6493492915652486723_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a4a2d7&_nc_ohc=yLChwvTXUCkAX96wEKb&_nc_ht=scontent.fbwa1-1.fna&oh=00_AfCCnLGJW5foj37LVru9g_6gyYpXrXBwcB3Zae8dbYvydQ&oe=63EB4D55" alt="" />
+                    <img className={styles.user_profile_img} src="/assets/images/user.png" alt="" />
                     <div className={styles.account_primary_details_box}>
 
                         <div className={styles.primary_details}>

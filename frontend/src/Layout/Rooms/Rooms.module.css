@@ -2,14 +2,14 @@
 }
 
 .filterBtn {
-  border: 2px solid rgb(255, 72, 5);
+  border: 2px solid var(--primary_color);
   background-color: #1f1f29;
   display: flex;
   align-items: center;
   gap: 1rem;
   height: 35px;
   border-radius: 4px;
-  color: orangered;
+  color: var(--primary_color);
 }
 
 .filterBtn img {
@@ -31,5 +31,5 @@
   align-items: center;
 }
 .filter_icon {
-  fill: rgb(255, 72, 5);
+  fill:var(--primary_color)
 }

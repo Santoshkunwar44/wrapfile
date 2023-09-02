@@ -1,7 +1,7 @@
 .room {
   flex: 1;
   min-width: 220px;
-  background-color: #151515;
+  background-color: #21213e3d;
   border-radius: 8px;
   padding: 10px;
   cursor: pointer;
@@ -25,7 +25,7 @@
 .room_name {
   font-size: 15px;
   font-weight: 500;
-  color: orangered;
+ color: gray;
   letter-spacing: 1px;
 }
 .updatedTime {
@@ -35,12 +35,14 @@
 .details_top {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 10px;
   margin-bottom: 8px;
 }
 .updatedTime p,
 .updatedTime span,
 .size {
   color: gray;
+
+  letter-spacing: 1px;
   font-size: 11px;
 }
